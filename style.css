@@ -1,0 +1,194 @@
+
+*{
+    font-family:arial;
+}
+
+.conteiner{
+    width: 986px;
+    margin: auto;
+    padding:15px 0;
+}
+
+.button{
+    width:100px;
+    height:30px;
+    background:red;
+    cursor:pointer;
+    color:#fff;
+    margin: 21px 50px;
+    float:left;
+    border-radius: 8px;
+    border: 1px;
+}
+
+.p{
+    float: left; 
+    margin: 0 5px;
+}
+
+.no_tovar{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    float: left;
+    margin: 10px 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#slider-range{
+    width:179px; 
+    height:3px;
+}
+
+span{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 10px !important;
+    background: red !important;
+    cursor: pointer !important;
+}
+
+.ui-slider-range{ 
+    background: red none repeat scroll 0% 0% !important; 
+}
+     
+label{ 
+    font-size: 13px; 
+}  
+
+input[type=radio]{
+    display: none; 
+}   
+
+input[type=radio] + label:before {
+    content: "\26AB";
+    color:red;
+    cursor:pointer;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;  
+    line-height: 13px;
+    margin: -5px 5px 0 0;
+    height: 12px;
+    width: 12px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0;    
+    transition: font-size ease .3s;
+}
+
+input[type=radio]:checked + label:before {
+    font-size: 12px;    
+}
+
+
+input[type=checkbox]{display: none;}
+
+input[type=checkbox] + label:before {
+    content: "\2713";
+    cursor:pointer;
+    border-radius:3px;
+    color: transparent;
+    display: inline-block;
+    border: 1px solid #9E9E9E;
+    font-size: 25px;    
+    line-height: 4px;
+    margin: -5px 5px 0 0;
+    height: 12px;
+    width: 12px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color ease .3s;
+}
+
+input[type=checkbox]:checked + label:before {
+    color: red;
+}
+
+.block{
+    margin: 5px 0;       
+}
+
+.cart{
+    width:220px;
+    float:left;
+    border:1px solid #9f9c9c;
+    margin-left:15px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.image{
+    width:210px;
+    margin:auto;
+    margin-top:3px;
+}
+
+.name{
+    margin: 22px 13px;
+    font-weight: bold;
+}
+
+.namesp{
+    margin-bottom: 7px;
+}
+
+.cn{
+    margin:7px 13px;
+    font-weight: bold;
+}
+
+.cena{
+    margin-bottom:7px;
+    float:left;
+    font-size:28px;
+    margin-right:10px;
+}
+
+.wrapper{
+    float:left;
+    width:200px;
+    border:1px solid #c8c8c8; 
+    border-radius:5px;
+    margin: 10px 0px;
+}
+
+.block1{
+    float:left;
+    padding: 20px 11px; 
+}
+
+.block2{
+    float:left;
+    padding: 20px 11px;
+}
+
+#amount{
+    border:0; 
+    color:red; 
+    font-weight:bold;
+}
+
+.slide_block{
+    width: 144px;
+    height: 12px;
+    float: left; 
+    margin: 12px 13px;
+}
+
+.block_cart{
+    width:744px; 
+    float:left;
+    margin-bottom:200px;
+    margin-left:20px;
+}
+
+.res{
+    float:left;
+}
+
